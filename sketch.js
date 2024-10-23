@@ -45,7 +45,14 @@ function createGrid(gridContainer, size) {
 
     for(let child of gridChildren) {
         child.addEventListener('mouseenter', (e) => {
-            e.target.classList.add('color-div');
+            e.target.style.backgroundColor = getRandomRGB();
         });
     }
+}
+
+function getRandomRGB() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
 }

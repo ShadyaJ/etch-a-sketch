@@ -48,10 +48,6 @@ body {
     border: 1px solid whitesmoke;
 }
 
-.color-div {
-    background-color: #282657;
-}
-
 .buttons {
     display: flex;
     gap: 20px;
