@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "VT323", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 120px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    color: #f2dc6c;
+    font-size: 56px;
+}
+
+.grid-container {
+    border: 12px solid #282657;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(18 * 25px);
+    margin: 40px 0;
+}
+
+.grid-child {
+    background-color: #fff;
+    border: 1px solid whitesmoke;
+    width: 25px;
+    height: 25px;
+    flex-grow: 1;
+}
+
+.color-div {
+    background-color: #282657;
+}
